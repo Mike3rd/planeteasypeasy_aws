@@ -1,6 +1,6 @@
 baseurl = "https://easyhrcomms.com"
 DefaultContentLanguage = "en"
-title = "EasyHRcomms"
+title = "PlanetEasyPeasy"
 # Using theme as git submodule
 themes = "beautifulhugo"
 pygmentsStyle = "trac"
@@ -17,7 +17,7 @@ pygmentsCodefencesGuessSyntax = true
     id = "G-9QRC9PXZ3Q"
 
 [Params]
-homeTitle = "Easy HR Comms" # Set a different text for the header on the home page
+homeTitle = "Planet Easy Peasy" # Set a different text for the header on the home page
   subtitle = "Design It Yourself"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
@@ -32,6 +32,7 @@ homeTitle = "Easy HR Comms" # Set a different text for the header on the home pa
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
+  
 #  cusdisID = "XXX" # Get your App id from cusdis.com
 #  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
