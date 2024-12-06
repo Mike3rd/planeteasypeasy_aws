@@ -9,7 +9,7 @@ Beautiful Hugo adds a few custom shortcodes created by [Li-Wen Yip](https://www.
 
 {{< gallery caption-effect="fade" >}}
 {{<figure src="/img/hexagon.jpg" link="/img/hexagon-thumb.jpg" caption="Hexagon">}}
-{{<figure src="/img/sphere.jpg" link="/img/sphere-thumb.jpg" caption="Sphere 1">}}
+{{<figure src="/img/sphere.jpg" link="/img/sphere-thumb.jpg" caption="Sphere">}}
 {{<figure src="/img/triangle.jpg" link="/img/triangle-thumb.jpg" caption="Triangle">}}
 {{<figure src="/img/sphere.jpg" link="/img/sphere-thumb.jpg" caption="Sphere 2">}}
 {{< /gallery >}}
