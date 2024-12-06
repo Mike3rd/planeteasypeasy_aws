@@ -12,6 +12,9 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 
+[build.environment]
+  HUGO_VERSION = "0.136.2"
+
 [Services]
   [Services.Disqus]
     # Shortname = "XXX"
