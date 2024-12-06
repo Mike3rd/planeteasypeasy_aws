@@ -8,10 +8,10 @@ tags: ["example", "photoswipe"]
 Beautiful Hugo adds a few custom shortcodes created by [Li-Wen Yip](https://www.liwen.id.au/heg/) and [Gert-Jan van den Berg](https://github.com/GjjvdBurg/HugoPhotoSwipe) for making galleries with [PhotoSwipe](https://photoswipe.com) . 
 
 {{< gallery caption-effect="fade" >}}
-{{<figure src="/img/hexagon.jpg" link="/img/hexagon-thumb.jpg" caption="Hexagon">}}
-{{<figure src="/img/sphere.jpg" link="/img/sphere-thumb.jpg" caption="Sphere">}}
-{{<figure src="/img/triangle.jpg" link="/img/triangle-thumb.jpg" caption="Triangle">}}
-{{<figure src="/img/sphere.jpg" link="/img/sphere-thumb.jpg" caption="Sphere 2">}}
+{{<figure src="/img/hexagon.jpg" link="img/hexagon-thumb.jpg" caption="Hexagon">}}
+{{<figure src="/img/sphere.jpg" link="img/sphere-thumb.jpg" caption="Sphere">}}
+{{<figure src="/img/triangle.jpg" link="img/triangle-thumb.jpg" caption="Triangle">}}
+{{<figure src="/img/sphere.jpg" link="img/sphere-thumb.jpg" caption="Sphere 2">}}
 {{< /gallery >}}
 
 <!--more-->
