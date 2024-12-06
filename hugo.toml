@@ -1,4 +1,6 @@
 baseurl = "https://staging.d3bv3xyrsys6if.amplifyapp.com/"
+relativeUrls = true
+canonifyURLs = true
 DefaultContentLanguage = "en"
 title = "PlanetEasyPeasy"
 # Using theme as git submodule
