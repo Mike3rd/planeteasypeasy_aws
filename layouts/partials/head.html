@@ -49,12 +49,11 @@
 {{- with .Site.Params.favicon }}
   <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
 {{- end -}}
-
-
 <!-- Hugo Version number -->
   {{ hugo.Generator -}}
 <!-- Links and stylesheets -->
   <link rel="alternate" href="{{ "index.xml" | absLangURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
+
   {{- if .Site.Params.selfHosted -}}
   <link rel="stylesheet" href="{{ "css/katex.min.css" | absURL }}" />
   <link rel="stylesheet" href="{{ "fontawesome/css/all.css" | absURL }}" />
@@ -65,10 +64,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   {{- end -}}
 
-  <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" /> 
-<!--turko styles-->  
-<link rel="stylesheet" href="{{ "css/styles_tko.css" | relURL }}">
-<!--end turko styles-->  
+  <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
+
   {{- if .Site.Params.staticman -}}
   <link rel="stylesheet" href="{{ "css/staticman.css" | absURL }}" />
   {{- end -}}

@@ -1,8 +1,11 @@
-
 DefaultContentLanguage = "en"
-title = "PlanetEasyPeasy"
+title = "mturko.com"
 # Using theme as git submodule
-themes = "beautifulhugo"
+relativeUrls = true
+canonifyURLs = true
+
+# Or when using theme as hugo module
+# theme = "github.com/halogenica/beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
@@ -10,19 +13,16 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 
-[build.environment]
-  HUGO_VERSION = "0.136.2"
-
 [Services]
   [Services.Disqus]
     # Shortname = "XXX"
   [Services.googleAnalytics]
-    id = "G-9QRC9PXZ3Q"
+    # id = "XXX"
 
 [Params]
-baseurl = "https://main.d10ap4pdhsnshl.amplifyapp.com"
-homeTitle = "Planet Easy Peasy" # Set a different text for the header on the home page
-  subtitle = "Design It Yourself"
+baseURL = "https://mturko.vercel.app"
+ homeTitle = "Mike Turko" # Set a different text for the header on the home page
+  subtitle = "Build a beautiful and simple website in minutes"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
@@ -36,7 +36,6 @@ homeTitle = "Planet Easy Peasy" # Set a different text for the header on the hom
   socialShare = true
   delayDisqus = true
   showRelatedPosts = true
-  
 #  cusdisID = "XXX" # Get your App id from cusdis.com
 #  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"

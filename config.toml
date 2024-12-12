@@ -1,4 +1,4 @@
-baseurl = "https://main.d10ap4pdhsnshl.amplifyapp.com"
+baseurl = "https://mturko.vercel.app/"
 relativeUrls = true
 canonifyURLs = true
 DefaultContentLanguage = "en"
@@ -11,9 +11,6 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
-
-[build.environment]
-  HUGO_VERSION = "0.136.2"
 
 [Services]
   [Services.Disqus]

@@ -16,6 +16,7 @@ Beautiful Hugo adds a few custom shortcodes created by [Li-Wen Yip](https://www.
 {{< /gallery >}}
 
 
+
 <!--more-->
 ## Example
 The above gallery was created using the following shortcodes:
