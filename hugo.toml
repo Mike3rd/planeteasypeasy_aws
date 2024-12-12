@@ -1,6 +1,4 @@
-baseurl = "https://staging.d33n7dxueyy090.amplifyapp.com"
-relativeUrls = true
-canonifyURLs = true
+
 DefaultContentLanguage = "en"
 title = "PlanetEasyPeasy"
 # Using theme as git submodule
@@ -22,6 +20,7 @@ pygmentsCodefencesGuessSyntax = true
     id = "G-9QRC9PXZ3Q"
 
 [Params]
+baseurl = "https://staging.d33n7dxueyy090.amplifyapp.com"
 homeTitle = "Planet Easy Peasy" # Set a different text for the header on the home page
   subtitle = "Design It Yourself"
   mainSections = ["post","posts"]
