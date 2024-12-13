@@ -17,7 +17,7 @@ pygmentsCodefencesGuessSyntax = true
   [Services.Disqus]
     # Shortname = "XXX"
   [Services.googleAnalytics]
-    id = "G-9QRC9PXZ3Q"
+    # id = "G-9QRC9PXZ3Q"
 
 [Params]
 baseurl = "https://main.d10ap4pdhsnshl.amplifyapp.com"
