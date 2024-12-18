@@ -21,7 +21,7 @@ Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
   </div>
   
   <div class="tipjar_column" style="background-color:#bbb;">
-    <h2>Column 2</h2>
+    <h2><i class="fa-solid fa-bone"></i> Column 2</h2>
 	<p>
 	Support my creative endeavors!
 If you’ve enjoyed my content, music, art, or tutorials, consider showing your appreciation with a virtual tip. Every contribution helps me continue creating and sharing my passion with you.
@@ -33,10 +33,8 @@ Create more content and share it with you
 Experiment with new ideas and projects
 Keep doing what I love, thanks to your encouragement!
 Thank you for your kindness! 
-	</p>
-	
-	
-    <p style="text-align:center"><stripe-buy-button
+</p>
+<p style="text-align:center"><stripe-buy-button
   buy-button-id="buy_btn_1QXS39IIBudkmGlPiOu56PAw"
   publishable-key="pk_test_51NP4sUIIBudkmGlPvIafntOZzlbARCFtLCB6s7bTZzj57XLIqrq80vsozF45lVXUL4NR9mpptYvzPr6rVNaPbcVH00VdmLrNSg"
 >
