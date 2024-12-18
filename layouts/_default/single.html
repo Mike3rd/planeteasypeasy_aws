@@ -24,7 +24,7 @@
                 {{ partial "share-links" . }}
               </div>
             </section>
-        {{ end }}
+        {{ end }}	
 
         {{ if .Site.Params.showRelatedPosts }}
           {{ range first 1 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}

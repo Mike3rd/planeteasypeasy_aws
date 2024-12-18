@@ -64,3 +64,35 @@ code {
     background-color: #dddddd!important;
     border-radius: 4px;
 }
+
+/* TKO TIP JAR AREA */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for flexboxes */
+.tipjar_row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom:10px
+}
+
+/* Create four equal columns */
+.tipjar_column {
+  flex: 25%;
+  padding: 20px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .tipjar_column {
+    flex: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .tipjar_row {
+    flex-direction: column;
+  }
+}
