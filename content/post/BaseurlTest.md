@@ -21,24 +21,22 @@ Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
   </div>
   
   <div class="tipjar_column" style="background-color:#bbb;">
-    <h2><i class="fa-solid fa-bone"></i> Column 2</h2>
-	<p>
-	Support my creative endeavors!
-If you’ve enjoyed my content, music, art, or tutorials, consider showing your appreciation with a virtual tip. Every contribution helps me continue creating and sharing my passion with you.
-Tip amounts: $1, $3, $5, or more (your choice!)
-Payment options: [List payment methods, e.g., PayPal, Venmo, Cash App]
-Why tip? Your support allows me to:
-* Invest in better equipment and software
-Create more content and share it with you
-Experiment with new ideas and projects
-Keep doing what I love, thanks to your encouragement!
-Thank you for your kindness! 
-</p>
+    <h3><i class="fa-solid fa-circle-dollar-to-slot"></i> Appreciate my Content and Resources?</h3>
+	<p></p>
 <p style="text-align:center"><stripe-buy-button
   buy-button-id="buy_btn_1QXS39IIBudkmGlPiOu56PAw"
   publishable-key="pk_test_51NP4sUIIBudkmGlPvIafntOZzlbARCFtLCB6s7bTZzj57XLIqrq80vsozF45lVXUL4NR9mpptYvzPr6rVNaPbcVH00VdmLrNSg"
 >
 </stripe-buy-button></p>
+
+
+<div id="donate_paypal_wrap">
+
+<div id="donate_paypal">
+<a href="https://www.example.com"   class="button_paypal" >Paypal - Donate</a></div>
+
+</div>
+<p>Thank you for your kindness! </p>
   </div> <!--END BUTTON-->
 <script async
   src="https://js.stripe.com/v3/buy-button.js">
