@@ -56,7 +56,7 @@ Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 <div class="comments"></div>
 		<link href="comments.css" rel="stylesheet" type="text/css">
 <div class="comments"></div>
-	<script src="js/phpcomments2/comments.js"></script>
+	<script src="/js/phpcomments2/comments.js"></script>
 			<script>
 			new Comments({
 				page_id: 1,
