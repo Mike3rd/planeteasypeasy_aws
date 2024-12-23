@@ -112,6 +112,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom:5px
 }
 
 #donate_paypal{

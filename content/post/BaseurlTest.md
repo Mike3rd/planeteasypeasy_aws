@@ -31,9 +31,15 @@ Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 
 
 <div id="donate_paypal_wrap">
+<div id="donate_paypal">
+<a href="https://donate.stripe.com/test_dR6dRbavEgrf8k8146"   class="button_paypal" target="_blank"  >Card (Stripe) - Donate</a></div>
+</div>
+
+
+<div id="donate_paypal_wrap">
 
 <div id="donate_paypal">
-<a href="https://www.paypal.com/donate/?hosted_button_id=P6DVN8MZR6C8W"   class="button_paypal" >Paypal - Donate</a></div>
+<a href="https://www.paypal.com/donate/?hosted_button_id=P6DVN8MZR6C8W"   class="button_paypal" target="_blank" >Paypal - Donate</a></div>
 
 </div>
 <p>Thank you for your kindness! </p>
