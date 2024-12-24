@@ -16,26 +16,45 @@ Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 {{< rawhtml >}}
 <div class="tipjar_row">
   <div class="tipjar_column" style="background-color:#aaa;">
-    <h2>Column 1</h2>
-    <p>Some text..</p>
+	
+  <div><h1>Get the latest from Planet EasyPeasy</h1>
+  <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="2BE4EF332AA2E32596E38B640E905619E4C0C419B0C4EC20CF9A90C0316EDBA417D115E2539DDFE659508C42E54C2F6EAC2AF678A6748AAC49192CA55F67887A"><div>
+  <div><label for="fieldName">Name </label>
+  <input id="fieldName" maxlength="200" name="cm-name" placeholder="Your name"></div><div>
+  <label for="fieldEmail">Email</label> <input autocomplete="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-jkbml-jkbml" placeholder="Your email" required="" type="email"></div><div><div><div>
+  <input aria-required="" id="cm-privacy-consent" name="cm-privacy-consent" required="" type="checkbox"> 
+  <label for="cm-privacy-consent">I agree to be emailed</label></div>
+  <input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true"></div></div></div><button type="submit">Subscribe</button></form></div>
+  <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
+	
+
   </div>
   
   <div class="tipjar_column" style="background-color:#bbb;">
     <h3><i class="fa-solid fa-circle-dollar-to-slot"></i> Appreciate my Content and Resources?</h3>
 	<p></p>
-<p style="text-align:center"><stripe-buy-button
-  buy-button-id="buy_btn_1QXS39IIBudkmGlPiOu56PAw"
-  publishable-key="pk_test_51NP4sUIIBudkmGlPvIafntOZzlbARCFtLCB6s7bTZzj57XLIqrq80vsozF45lVXUL4NR9mpptYvzPr6rVNaPbcVH00VdmLrNSg"
+
+
+<!--STRIPE CARD-->	
+<p style="text-align:center">
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1QZecsLfaaPGUsqOTzUllKlO"
+  publishable-key="pk_test_51QXUZ3LfaaPGUsqOhD5QiyiY5NhOAvRDYu08wUu8K0grLSJLBoOprUHOxdxBC7FiMIBKqWBO65hhxYHfR5GpDQEK00Vpy3TIpW"
 >
-</stripe-buy-button></p>
+</stripe-buy-button>
+</p>
 
-
+<!--STRIPE BUTTON-->
 <div id="donate_paypal_wrap">
 <div id="donate_paypal">
-<a href="https://donate.stripe.com/test_dR6dRbavEgrf8k8146"   class="button_paypal" target="_blank"  >Card (Stripe) - Donate</a></div>
+<a href="https://buy.stripe.com/test_28o9AS34A1okg36288"   class="button_paypal" target="_blank"  >Card (Stripe) - Donate</a></div>
 </div>
 
-
+<!--PAYPAL BUTTON-->
 <div id="donate_paypal_wrap">
 
 <div id="donate_paypal">
@@ -44,8 +63,5 @@ Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
 </div>
 <p>Thank you for your kindness! </p>
   </div> <!--END BUTTON-->
-<script async
-  src="https://js.stripe.com/v3/buy-button.js">
-</script>
 </div> <!--END TIPJAR SECTION -->
 {{< /rawhtml >}}
