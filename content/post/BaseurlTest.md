@@ -27,12 +27,11 @@ Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
   <input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true"></div></div></div><button type="submit">Subscribe</button></form></div>
   <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
 	
-
   </div>
   
-  <div class="tipjar_column" style="background-color:#bbb;">
-    <h3>Appreciate my Content and Resources?</h3>
-	<p></p>
+  <div class="tipjar_column" style="background-color:#ADD8E6;">
+    <h3>Make a donation</h3>
+	<p>Donations help me cover infrastructure costs and supplement my 9-to-5 job.</p>
 
 
 <!--STRIPE CARD-->	
