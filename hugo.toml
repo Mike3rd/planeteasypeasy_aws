@@ -22,7 +22,7 @@ pygmentsCodefencesGuessSyntax = true
 [Params]
 baseurl = "https://main.d10ap4pdhsnshl.amplifyapp.com"
 homeTitle = "Planet Easy Peasy" # Set a different text for the header on the home page
-  subtitle = "Design It Yourself"
+  subtitle = "Where the Livin's Easy"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
