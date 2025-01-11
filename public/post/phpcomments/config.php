@@ -1,12 +1,12 @@
 <?php
 // Your MySQL database hostname.
-define('db_host','localhost');
+define('db_host','planeteasypeasy.cjqemucsql96.us-east-2.rds.amazonaws.com');
 // Your MySQL database username.
-define('db_user','u940803011_mturko');
+define('db_user','admin');
 // Your MySQL database password.
-define('db_pass','MT@easyhrcomments25');
+define('db_pass','AWS*database*pep');
 // Your MySQL database name.
-define('db_name','u940803011_easyhrcomms');
+define('db_name','planeteasypeasy');
 // Your MySQL database charset.
 define('db_charset','utf8');
 /* Comments */
