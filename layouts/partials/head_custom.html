@@ -2,10 +2,41 @@
 If you want to include any custom html just before </head>, put it in /layouts/partials/head_custom.html
 Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/partials/head_custom.html doesn't exist.
 -->
-
+<link rel="stylesheet" href="/css/comments.css">
 <link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
 <link rel="shortcut icon" href="/img/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
 <meta name="apple-mobile-web-app-title" content="Easy HR Comms" />
 <link rel="manifest" href="/img/site.webmanifest" />
+
+<!-- Java Script to load commentstko.js located in posts with post index.html file--> 
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain attribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
