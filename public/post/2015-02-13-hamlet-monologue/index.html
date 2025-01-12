@@ -109,7 +109,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
   <link rel="stylesheet" href="/css/highlight.min.css" /><link rel="stylesheet" href="/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
-<link rel="stylesheet" href="/css/comments.css">
+
 <link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
 <link rel="shortcut icon" href="/img/favicon.ico" />
@@ -117,36 +117,6 @@
 <meta name="apple-mobile-web-app-title" content="Easy HR Comms" />
 <link rel="manifest" href="/img/site.webmanifest" />
 
- 
-<script>
-function includeHTML() {
-  var z, i, elmnt, file, xhttp;
-   
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-     
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-       
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-           
-          elmnt.removeAttribute("w3-include-html");
-          includeHTML();
-        }
-      }      
-      xhttp.open("GET", file, true);
-      xhttp.send();
-       
-      return;
-    }
-  }
-};
-</script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -452,13 +422,6 @@ Be all my sins remembered.</p>
       
         
       
-
-	  <div class="commentwraptko">
-			<div class="comments"></div>
-			<script src="https://main.d1fc1tfl6awnl4.amplifyapp.com/post/phpcomments/comments.js"></script>
-			<script src="commentstko.js"> </script>  
-	    </div>
-
     </div>
   </div>
 </div>
